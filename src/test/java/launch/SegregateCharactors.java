@@ -10,7 +10,7 @@ public class SegregateCharactors
 //		String s = sc.nextLine();
 		
 		
-		String s = "chan1234dan#$%";
+		String s = "11chan1234dan#$%";
 		String aph = " ";
 		String no = " ";
 		String spl = " ";

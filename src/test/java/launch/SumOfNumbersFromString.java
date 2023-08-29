@@ -4,7 +4,7 @@ public class SumOfNumbersFromString
 {
 	public static void main(String[] args) 
 	{
-		String s="ab11bc22cd33";
+		String s="ab1111bc22cd33";
 		int num=0;
 		int sum=0;
 		for (int i = 0; i < s.length(); i++) 

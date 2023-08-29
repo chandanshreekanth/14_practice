@@ -8,7 +8,8 @@ public static void main(String[] args) {
 	System.out.println("Enter the Number:");
 	int no=sc.nextInt();
 	boolean flag=true;
-	for(int i=2;i<no;i++){
+	for(int i=2;i<no;i++)
+	{
 		if(no%i==0)
 		{
 			flag=false;
@@ -19,7 +20,8 @@ public static void main(String[] args) {
 	{
 		System.out.println("Prime");
 	}
-	else {
+	else 
+	{
 		System.out.println("Not a prime");
 	}
 }

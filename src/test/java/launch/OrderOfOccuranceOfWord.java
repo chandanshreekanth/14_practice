@@ -7,7 +7,7 @@ public class OrderOfOccuranceOfWord
 	public static void main(String[] args) 
 	{
 			
-			String s="tester";
+			String s="testerab";
 			LinkedHashSet<Character> sh=new LinkedHashSet<>();
 			for (int i = 0; i < s.length(); i++) 
 			{

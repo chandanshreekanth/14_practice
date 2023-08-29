@@ -9,7 +9,7 @@ public class RemoveDuplicateInAString
 	{
 		Scanner sc=new Scanner(System.in);
 		String s = sc.next();
-		//String s="testyantra";
+		//String s="chandan";
 		LinkedHashSet<Character> sh=new LinkedHashSet<Character>();
 		for (int i = 0; i < s.length(); i++) 
 		{

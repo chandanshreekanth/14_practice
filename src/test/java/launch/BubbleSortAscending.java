@@ -4,7 +4,7 @@ public class BubbleSortAscending
 {
 	public static void main(String[] args) 
 	{
-		int[] a={8,3,10,50,1};
+		int[] a={0,0,10,5,1,3,67,0,1};
 		
 		for(int i=0;i<a.length;i++)
 		{
