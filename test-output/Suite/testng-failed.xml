@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumBasics.ExplicitWait">
+        <methods>
+          <include name="explicitWait"/>
+        </methods>
+      </class> <!-- SeleniumBasics.ExplicitWait -->
+      <class name="SeleniumBasics.Sample5">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample5 -->
+      <class name="SeleniumBasics.Sample4">
+        <methods>
+          <include name="partialDynamic"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample4 -->
+      <class name="SeleniumBasics.Sample2">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample2 -->
+      <class name="SeleniumBasics.hardandsoft">
+        <methods>
+          <include name="abc"/>
+        </methods>
+      </class> <!-- SeleniumBasics.hardandsoft -->
+      <class name="SeleniumBasics.Sample8">
+        <methods>
+          <include name="Enabled"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample8 -->
+      <class name="SeleniumBasics.Sample1">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample1 -->
+      <class name="SeleniumBasics.YouTube">
+        <methods>
+          <include name="youTube"/>
+        </methods>
+      </class> <!-- SeleniumBasics.YouTube -->
+      <class name="SeleniumBasics.Priority">
+        <methods>
+          <include name="priority00"/>
+          <include name="priority_1"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Priority -->
+      <class name="SeleniumBasics.Sample6">
+        <methods>
+          <include name="Enabled"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample6 -->
+      <class name="SeleniumBasics.Sample7">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- SeleniumBasics.Sample7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

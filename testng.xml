@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SeleniumBasics.Bigbasket"/>
+      <class name="SeleniumBasics.Sample2"/>
+      <class name="SeleniumBasics.Sample1"/>
+      <class name="SeleniumBasics.ExplicitWait"/>
+      <class name="SeleniumBasics.hardandsoft"/>
+      <class name="SeleniumBasics.ReporterLog"/>
+      <class name="SeleniumBasics.IncognitoModeChrome"/>
+      <class name="SeleniumBasics.Priority"/>
+      <class name="SeleniumBasics.YouTube"/>
+      <class name="SeleniumBasics.Sample6"/>
+      <class name="SeleniumBasics.Sample5"/>
+      <class name="SeleniumBasics.Sample4"/>
+      <class name="SeleniumBasics.Sample3"/>
+      <class name="SeleniumBasics.DependantOfGenericClass"/>
+      <class name="SeleniumBasics.Sample9"/>
+      <class name="SeleniumBasics.Sample8"/>
+      <class name="SeleniumBasics.Sample7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
